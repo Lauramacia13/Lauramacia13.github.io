@@ -546,9 +546,10 @@ footer p {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 576px) {
+@media (max-width: 400 px) {
   .carousel__slide {width: 100 px;
-                   padding: 30 px}
+                   padding: 30 px;
+                   }
 }
 
 ::-webkit-scrollbar {
