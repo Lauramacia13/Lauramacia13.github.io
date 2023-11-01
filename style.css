@@ -154,7 +154,6 @@ h2 {
 
 .tema img {
   width: 100%;
-  height: 80%;
 }
 
 .tema p,
@@ -198,7 +197,6 @@ h2 {
 
 .speaker img {
   width: 100%;
-  height: 70%;
 }
 
 .speaker p,
@@ -545,6 +543,11 @@ footer p {
   100% {
     scroll-snap-align: center;
   }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .carousel__slide {width: 250px;}
 }
 
 ::-webkit-scrollbar {
