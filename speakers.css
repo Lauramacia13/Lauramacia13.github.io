@@ -1,0 +1,414 @@
+/***GENERAL***/
+/*Fuentes*/
+@font-face {
+    font-family: "HarryPotter";
+    src: url("static/Tipofrafias/HARRYP__.TTF");
+}
+
+body {
+    margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+/***HEADER EVENTO***/
+.header_evento {
+    background-color: rgb(192, 192, 192);
+    padding: 0.8em 0;
+    text-align: center;
+}
+
+.header_evento h1 {
+    font-family: "HarryPotter";
+    font-size: 2.5em;
+}
+
+/***TOP MENU***/
+.top_menu {
+    background-color: black;
+    display: flex;
+    padding: 1.5em;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.top_menu p {
+    color: white;
+}
+
+.top_menu a {
+    text-decoration: none;
+}
+
+.top_menu a p:hover {
+    color: rgb(208, 160, 52);
+}
+
+/***HEADER FONDO***/
+.header_fondo {
+    width: 100%;
+    height: 35em;
+    background-image: url("static/Fondos/Fondos-de-harry-potter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/***SECCION INSCRIPCION***/
+.seccion_inscripcion {
+    background-color: rgb(192, 192, 192);
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seccion_inscripcion h1 {
+    font-size: 2em;
+}
+
+.seccion_inscripcion a {
+    background-color: black;
+    font-size: 1.5em;
+    padding: 1% 2%;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/***TITULO SPEAKERS***/
+.titulo_speakers {
+    background-image: url("static/Fondos/Fondo_sin_opacidad.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.container_icono_1 {
+    border: 3px solid white;
+    width: 16em;
+    height: 15em;
+}
+
+.container_icono_2 {
+    text-align: center;
+    background-color: rgb(79, 143, 204);
+    width: 15em;
+    height: 15em;
+    padding: 3%;
+    transform: rotateY(0) rotate(45deg);
+}
+
+.container_icono_2 img {
+    filter: invert(1);
+    height: 75%;
+    transform: rotateY(0) rotate(-45deg);
+}
+
+.container_titulo_1 {
+    color: white;
+    font-size: 3em;
+    width: 50%;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 2em;
+}
+
+.container_titulo_2 {
+    background-color: rgb(41, 57, 83);
+    border-radius: 2em;
+    margin: 3%;
+}
+
+.container_titulo_2 h1 {
+    font-size: 1.5em;
+}
+
+/***SECCION SPEAKERS***/
+.seccion_speakers {
+    background-size: cover;
+    background-position: center;
+    padding: 2% 5%;
+    background-color: rgb(30, 38, 57);
+}
+
+.speaker {
+    display: flex;
+    color: white;
+    margin-bottom: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lr {
+    flex-direction: row;
+}
+
+.rl {
+    flex-direction: row-reverse;
+}
+
+.speaker .info {
+    color: white;
+    width: 69%;
+}
+
+.speaker .info h1 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+.speaker .info h3 {
+    color: rgb(41, 57, 83);
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.speaker .info p {
+    font-size: 1.5em;
+    color: rgb(41, 57, 83);
+    font-weight: bold;
+    background-color: white;
+    padding: 2% 4%;
+    border-radius: 20px;
+
+}
+
+.speaker .foto_y_nombre {
+    width: 30%;
+}
+
+.speaker .foto_y_nombre img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.speaker .foto_y_nombre h1 {
+    font-size: 2.5em;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/***FOOTER***/
+footer {
+    background-color: rgb(41, 57, 84);
+    padding: 2% 0;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    padding: 2% 5%;
+}
+
+.entidades_footer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.entidades_footer img {
+    width: 60%;
+}
+
+.twitter_footer {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.contacto_footer h1,
+.contacto_footer h2 {
+    color: white;
+}
+
+.contacto_footer h1 {
+    font-size: 2em;
+}
+
+.contacto_footer h2 {
+    font-size: 1.5em;
+}
+
+.redes_footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.redes_footer img {
+    width: 68%;
+    margin-left: 1em;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+/***RESPONSIVE***/
+@media only screen and (max-width: 768px) {
+    /***TOP MENU***/
+    .top_menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .top_menu a {
+      margin: 2% 0;
+      font-size: 2em; 
+    }
+              
+    /***SECCION INSCRIPCION***/
+    /*rgb(61, 50, 106)*/
+    .seccion_inscripcion {
+      flex-direction: column;
+    }
+  
+    .seccion_inscripcion a {
+      font-size: 2em;
+    }
+  
+    .seccion_inscripcion h1 {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 2em;
+    }
+
+    /***SECCION TEMAS***/
+    .speaker {
+        flex-direction: column;
+    }
+
+    .speaker .foto_y_nombre {
+        width: 60%;
+        margin-bottom: 2em;
+    }
+
+    .speaker img {
+        width: 70%;
+    }
+
+    .speaker .info {
+        width: 90%;
+    }
+
+    .speaker .foto_y_nombre h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .speaker .info p {
+        font-size: 1em;
+    }
+
+    /***HEADER TITULO***/
+    .titulo_speakers {
+        flex-direction: column;
+        padding: 10% 0;
+    }
+
+    .container_titulo_1 {
+        margin-top: 12%;
+    }
+
+    .container_titulo_2 h1 {
+        font-size: 0.5em;
+    }
+
+    .container_icono_1 {
+        width: 11em;
+        height: 10em;
+    }
+
+    .container_icono_2 { 
+        width: 10em;
+        height: 10em;
+    }
+    
+    /***FOOTER***/
+    .container_footer {
+      display: block;
+      padding: 2% 1%;
+    }
+  
+    .twitter_footer {
+      display: block;
+      width: 100%;
+    }
+  
+    .twitter_footer img {
+      width: 100%;
+    }
+  
+    .contacto_footer {
+      margin-top: 2em;
+      width: auto;
+    }
+  
+    .contacto_footer h1 {
+      font-size: 2em;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .contacto_footer h2 {
+      font-size: 1.5em;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .redes_footer {
+      text-align: center;
+      justify-content: space-evenly;
+    }
+  
+    .redes_footer a {
+      width: 20%;
+    }
+  
+    .redes_footer img {
+      margin-left: 0;
+    }
+  
+    .entidades_footer {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .entidades_footer img {
+      width: 70%;
+      margin: 5% 0;
+    }
+  
+    footer p {
+      text-align: center;
+      color: white;
+      font-size: 1em;
+    }
+}
